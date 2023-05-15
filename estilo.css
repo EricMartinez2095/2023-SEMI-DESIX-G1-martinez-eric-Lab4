@@ -16,7 +16,7 @@ body{
     border-radius: 5px;
 }
 
-.body-card{
+.body-card{ 
     display: flex;
     gap: 0.1rem;
     flex-direction: column;
