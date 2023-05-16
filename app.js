@@ -46,7 +46,7 @@
                     elemento.classList.add('grupo_num');
                     lista_num.appendChild(elemento);
 
-                    const cerrar=document.createElement('div');
+                    const cerrar=document.createElement('span');
                     cerrar.textContent="x";
                     cerrar.classList.add('grupo_close');
                 //    const cerrado_event=cerrar.getElementsByTagName('onclick="app.parentElement.style.display="none""');

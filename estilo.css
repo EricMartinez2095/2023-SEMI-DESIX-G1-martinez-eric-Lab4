@@ -11,7 +11,7 @@ body{
     margin-bottom: 1rem;
 }
 .card{
-    background-color: gainsboro;
+    background-color: gray;
     padding: 1rem;
     border-radius: 5px;
 }
@@ -33,6 +33,7 @@ body{
 .pie-card{
     display: flex;
     flex-direction: row-reverse;
+
 }
 .pie-card button{
     background-color: darkred;
@@ -40,6 +41,9 @@ body{
     border: unset;
     border-radius: 5px;
     padding: 0.5rem 2rem;   
+}
+.pie-card button:hover{
+    color:black;
 }
 
 #fibon-results{
@@ -61,6 +65,11 @@ body{
 
 #fibon-results .grupo_close{
     color:black;
-    justify-content: center;
-
+    cursor:pointer;
+    display: flex;
+    justify-content: center;;
+    font-size: 15px;
+}
+#fibon-results .grupo_close:hover{
+    color: red;
 }
